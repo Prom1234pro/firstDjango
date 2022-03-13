@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+.form {
+    width: 400px;
+    height: fit-content;
+    background: #e4e3e3;
+    padding: 20px;
+    border-radius: 3px;
+    margin: 30px auto;
+}
+p {
+    background: white;
+    padding: 10px;
+    border-radius: 3px;
+    color: #5959d1;
+    box-shadow: 0 0 2px;
+}
+.todos {
+    margin: 0 auto;
+}
+input, button {
+    border: none;
+}
+input[type="text"] {
+    padding: 5px;
+    outline: none;
+}
+
+input[type="submit"], button {  
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    background: blue;
+}
+.del {
+    background-color: red;
+}
